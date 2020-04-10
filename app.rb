@@ -30,3 +30,19 @@ post '/home' do
 get '/home' do
 	erb :home
   end
+
+post '/advising' do
+	redirect "/advising"
+  end
+
+get '/advising' do
+	erb :advising
+  end
+
+post '/future_courses' do
+	redirect "/future_courses"
+  end
+
+get '/future_courses' do
+	erb :future_courses
+  end
